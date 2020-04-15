@@ -1,0 +1,166 @@
+html {
+    background-image: url("90sBackground.jpg");
+    color: #f10cb8;
+    font-family: 'Freckle Face', cursive;
+    font-size: 30px;
+    border: 3px solid black;
+}
+
+header {
+  width: 1756px;
+  height: 450px;
+  padding: 25px 5px 5px 5px;
+  margin: 10px 200px 0 0;
+  text-align: left;
+  justify-content: left;
+  /* border: 3px solid #f10cb8; */
+  background: #dbc8d9;
+  /* opacity: .75; */
+  color: #f10cb8;
+  font-size: 30px;
+}
+
+#header_img {
+  max-width: 400px;
+  max-height: 300px;
+  margin: -185px 5px 0 750px;
+  border: 3px solid #f10cb8;
+}
+
+
+#header2_img {
+  max-width: 400px;
+  max-height: 300px;
+  margin: -985px 5px 0 -50px;
+  border: 3px solid #f10cb8;
+}
+
+
+#header3_img {
+  max-width: 400px;
+  max-height: 300px;
+  margin: -985px 5px 0 -45px;
+  border: 3px solid #f10cb8;
+}
+
+#history_img {
+  max-width: 400px;
+  max-height: 300px;
+  margin: -225px 5px 0 50px;
+  border: 3px solid  #f10cb8;
+}
+
+#spacefuture_img {
+  max-width: 450px;
+  max-height: 350px;
+  margin: -35px 5px 0 1150px;
+  border: 3px solid  #f10cb8;
+}
+
+#code_img {
+    max-width: 750px;
+    max-height: 550px;
+    margin: -255px 5px 0 1050px;
+    border: 3px solid #f10cb8;
+  }
+
+  #flute_img {
+    max-width: 650px;
+    max-height: 450px;
+    margin: -95px 5px 0 1250px;
+    padding: 35px;
+    border: 3px solid #f10cb8;
+    background-color: #dbc8d9;
+  }
+
+#schoen_img {
+  max-width: 500px;
+  max-height: 400px;
+  margin: 10px 5px 0 50px;
+  border: 3px solid #f10cb8;
+}
+
+.navigation {
+  margin: 70px 100px 20px 50;
+  padding: 10px 62px 0 8px;
+  overflow: hidden;
+  background-color: #dbc8d9;
+  float: left;
+  /* opacity: 1; */
+}
+
+img {
+    max-width: 400px;
+    max-height: 500px;
+    border: 3px solid #f10cb8;
+}
+
+.figure {
+    max-width: 400px;
+    max-height: 500px;
+    border: 3px solid #f10cb8;
+}
+
+.dev {
+  max-width: 1176px;
+  max-height: 685px; 
+  border: 3px #f10cb8;
+}
+
+
+div {
+  max-width: 1066px;
+  margin: 35px 0px 15px 0;
+  padding: 10px 62px 5px 28px;
+  background-color: #dbc8d9;
+  /* border: 3px solid #f10cb8; */
+  opacity: .75;
+}
+
+video {
+  max-width: 500px;
+  max-height: 600px;
+  border: 3px solid #f10cb8;
+}
+
+form {
+    /* Center the form on the page */
+    margin: left;
+    width: 400px;
+    /* Form outline */
+    padding: .5em;
+    border: 3px solid #f10cb8;
+    border-radius: 1em;
+    background-color: #32a899;
+    opacity: .90;
+    /* font-weight: bold; */
+    font-size: 30px;
+  }
+
+  input, 
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus, 
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 6em;
+  }
